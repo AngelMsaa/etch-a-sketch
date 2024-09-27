@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.cell {
+    border: 1px solid black;
+    box-sizing: border-box;
+    aspect-ratio: 1 / 1;
+    flex: 1 0 auto; 
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90vmin; 
+    height: 90vmin; 
+}
+
+.cell.hover {
+    background-color: black;
+}
+
+.flexDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+
+button {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 256px;
+    height: 32px;
+    flex: auto;
+}
